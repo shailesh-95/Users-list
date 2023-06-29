@@ -27,8 +27,8 @@ const MyComponent = () => {
   const Filter = (event) => {
     setRecords(
       data.filter((f) =>
-        f.first_name.toLowerCase().includes(event.target.value)
-      )
+        f.first_name.toLowerCase().includes(event.target.value) || f.first_name.toUpperCase().includes(event.target.value)
+      ) 
     );
   };
 
