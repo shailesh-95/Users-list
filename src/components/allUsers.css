@@ -1,0 +1,31 @@
+.parent{
+ margin-left: 35%;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    width: 265px; 
+
+  }
+
+  .userid{
+    position: absolute;
+    margin-left: 245px;
+    text-align: center;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+  }
+
+img{
+  border-radius: 30px !important;
+}
+
+
+  
